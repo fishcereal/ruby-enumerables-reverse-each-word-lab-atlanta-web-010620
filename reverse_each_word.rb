@@ -10,14 +10,4 @@ def reverse_each_word(string)
   new_array = array.collect{|memo| memo.reverse}
   new_string = new_array.join(" ")
   return new_string
-  
-  
-  
-  p "string is #{string}"
-  
-  
-  
-  p "The new array is #{new_array}"
-  
-  
 end 
