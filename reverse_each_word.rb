@@ -4,7 +4,7 @@ def reverse_each_word(string)
 
   
   new_array = array.collect{|memo| memo.reverse}
-# The above line comprises the following 4 lines into 1 line: 
+# The above line comprises the following 5 lines into 1 line: 
   # i = 0 
   # while i < array.length 
   #   new_array[i] = array[i].reverse
